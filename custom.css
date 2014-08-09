@@ -1,0 +1,266 @@
+
+.post {
+	position: relative;
+    min-width: 250px;
+    min-height: 250px;
+    display: inline-block;
+    color: #fff;
+}
+
+.img-container {
+    overflow: hidden;	
+}
+.dimmed {
+	width:100%;
+	position: absolute;
+	top:0px;
+	left:0px;
+	bottom:0px;
+	text-align: center;
+    background-color: #1A1A1A;
+    opacity: 0.3;
+   transition: opacity .15s ease-in-out;
+   -moz-transition: opacity .15s ease-in-out;
+   -webkit-transition: opacity .15s ease-in-out;
+}
+
+.post:hover .dimmed {
+	opacity: 0.6;
+}
+
+.overimage {
+	position: absolute;
+	top:160px;
+	width: 100%;
+	z-index: 10;
+	pointer-events: none;
+}
+
+.overimage.latest {
+	top:250px;
+}
+
+h1.header {
+	font-size: 50px;
+	font-family: 'Armata', sans-serif;
+	margin-left: 20px;
+}
+
+h1.header.latest {
+	font-size: 58px;
+}
+
+.podnaslov {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 24px;
+	margin-left: 4px;
+	line-height: 28px;
+	font-style: italic;
+}
+
+.podnaslov.latest {
+	font-size: 28px;
+	margin-left: -10px;
+	line-height: 32px;
+}
+
+.topmargin {
+	margin-top: 6px;
+}
+
+.box {
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px
+} 
+
+h2.imeprezime {
+	font-size: 24px;
+	font-family: 'Armata', sans-serif;
+	margin-top: 45px;
+	text-align:center;
+	color: #4d4d4d;
+}
+
+.opis {
+	font-size: 14px;
+	font-family: 'Quattrocento Sans', sans-serif;
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-left: 20px;
+	text-align:center;
+	font-style: italic;
+	color: #666666;
+}
+
+.opisweb {
+	font-size: 14px;
+	font-family: 'Quattrocento Sans', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 45px;
+	margin-right: 20px;
+	margin-left: 20px;
+	text-align:center;
+	color: #4d4d4d;
+	font-weight:bold;
+}
+
+.social-icons {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 160px;
+}
+
+.theme {
+	font-size: 44px;
+	font-family: 'Lobster Two', cursive;
+	margin-top: 55px;
+	text-align:center;
+	color: #4d4d4d;
+	margin-bottom: 15px;
+}
+
+.box1 {
+	background-color: #4d4d4d;
+	height: 40px;
+	margin-top: 5px;
+}
+
+.innertext {
+	font-size: 21px;
+	font-family: 'Armata', sans-serif;
+	padding-top: 5px;
+	margin-left: 10px;
+	color: #fff;
+}
+
+.box1.personal:hover {
+	background-color: #ff2d55;
+}
+.box1.photoshop:hover {
+	background-color: #34aadc;
+}
+.box1.illustrator:hover {
+	background-color: #ff9500;
+}
+.box1.photography:hover {
+	background-color: #4cd964;
+}
+
+.latest-icon {
+	position: absolute;
+	top:30px;
+	left:-80px;
+	z-index: 10;
+	width: 160px;
+}	
+
+.search {
+	margin-top: 15px;
+}
+
+.post:hover img.pictures {
+  /* Webkit for Chrome and Safari */
+  -webkit-transform: scale(1.02, 1.02); // This is the enlarged size scale of the image.
+  -webkit-transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-out;
+ 
+  /* Webkit for Mozila Firefox */
+  -moz-transform: scale(1.02, 1.02);
+  -moz-transition-duration: 500ms;
+  -moz-transition-timing-function: ease-out;
+ 
+  /* Webkit for IE( Version: 11, 10 ) */
+  -ms-transform: scale(1.02, 1.02);
+  -ms-transition-duration: 500ms;
+  -ms-transition-timing-function: ease-out;
+}
+
+img.pictures {
+  /* Webkit for Chrome and Safari */
+  -webkit-transform: scale(1, 1); // This is the scale for the normal size of the image.
+  -webkit-transition-duration: 500ms;
+  -webkit-transition-timing-function: ease-out;
+ 
+  /* Webkit for Mozila Firefox */
+  -moz-transform: scale(1, 1);
+  -moz-transition-duration: 500ms;
+  -moz-transition-timing-function: ease-out;
+ 
+  /* Webkit for IE( Version: 11, 10 ) */
+  -ms-transform: scale(1, 1);
+  -ms-transition-duration: 500ms;
+  -ms-transition-timing-function: ease-out;	
+}
+
+
+.read-container {
+	position: absolute;
+	bottom: 12%;
+	width: 100%;
+	z-index: 100;
+}
+
+
+.read-more {
+	position: relative;	
+	width:120px;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	left: 44%;
+	border: 3px solid white;
+	color: white;
+	text-align: center;
+	font-family: "Lobster Two", cursive;
+	font-size: 30px;
+}
+
+.read-more a {
+	width: 100%;
+	color: white;
+	font-style: italic;
+	padding-right: 3px;
+}
+
+.read-more a:hover {
+	text-decoration: none;
+}
+
+.box2 {
+	background-color: #4d4d4d;
+	height: 40px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	width: 260px;
+}
+
+h1.naslov-post {
+	font-size: 64px;
+	font-family: 'Armata', sans-serif;
+	margin-left: 15px;
+	margin-top: 50px;
+	color: #fff;
+}
+
+.podnaslov-post {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 29px;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	font-style: italic;
+	color: #4d4d4d;
+	line-height: 37px;
+}
+
+p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 21px;
+	line-height: 25px;
+	color: #4d4d4d;
+	margin-top: 30px;
+}
+
+.horizontal-line {
+	margin-bottom: 80px;
+}
