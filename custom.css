@@ -254,7 +254,7 @@ h1.naslov-post {
 
 p {
 	font-family: 'PT Sans', sans-serif;
-	font-size: 21px;
+	font-size: 18px;
 	line-height: 25px;
 	color: #4d4d4d;
 	margin-top: 30px;
@@ -262,4 +262,16 @@ p {
 
 .horizontal-line {
 	margin-bottom: 80px;
+}
+
+.tekst-podnaslov {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 30px;
+	color: #4d4d4d;
+	margin-top: 60px;
+
+}
+
+.post-slike {
+	margin-top: 30px;
 }
