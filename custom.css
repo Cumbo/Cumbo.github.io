@@ -1,8 +1,8 @@
 
 .post {
 	position: relative;
-    min-width: 250px;
-    min-height: 250px;
+    min-width: 150px;
+    min-height: 150px;
     display: inline-block;
     color: #fff;
 }
@@ -30,13 +30,18 @@
 
 .overimage {
 	position: absolute;
-	top:160px;
+	top:30%;
 	width: 100%;
 	z-index: 10;
 }
 
 .overimage.latest {
-	top:250px;
+	top:40%;
+}
+
+.overimage.latest.post-title {
+	bottom:7%;
+	top:auto;
 }
 
 h1.header {
@@ -204,7 +209,7 @@ img.pictures {
 
 .read-more {
 	position: relative;	
-	width:120px;
+	width:115px;
 	margin-left: 0 auto;
 	margin-right: 0 auto;
 	left: 44%;
@@ -213,13 +218,15 @@ img.pictures {
 	text-align: center;
 	font-family: "Lobster Two", cursive;
 	font-size: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .read-more a {
 	width: 100%;
 	color: white;
 	font-style: italic;
-	padding-right: 3px;
+	padding-right: 5px;
 }
 
 .read-more a:hover {
@@ -238,7 +245,6 @@ h1.naslov-post {
 	font-size: 64px;
 	font-family: 'Armata', sans-serif;
 	margin-left: 15px;
-	margin-top: 50px;
 	color: #fff;
 }
 
@@ -274,4 +280,80 @@ p {
 
 .post-slike {
 	margin-top: 30px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+	h1.naslov-post {
+		font-size: 28px;
+		margin-left: 15px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	h1.naslov-post {
+		font-size: 39px;
+		margin-left: 15px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+	h1.header {
+		font-size: 40px;
+		margin-left: 20px;
+	}
+
+	h1.header.latest {
+		font-size: 50px;
+	}
+
+	.podnaslov {
+		font-size: 20px;
+		margin-left: 4px;
+		line-height: 24px;
+	}
+
+	.podnaslov.latest {
+		font-size: 24px;
+		margin-left: -3px;
+		line-height: 30px;
+	}
+
+
+	.read-more {
+		position: relative;	
+		width:105px;
+		margin-left: 0 auto;
+		margin-right: 0 auto;
+		left: 44%;
+		border: 3px solid white;
+		color: white;
+		text-align: center;
+		font-family: "Lobster Two", cursive;
+		font-size: 26px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.read-more a {
+		width: 100%;
+		color: white;
+		font-style: italic;
+		padding-right: 5px;
+	}
+
+	h1.naslov-post {
+		font-size: 52px;
+		margin-left: 15px;
+	}
+
+
+}
+
+@media (min-width: 1200px) {
+
 }
