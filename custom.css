@@ -325,15 +325,8 @@ p {
 
 
 	.read-more {
-		position: relative;	
 		width:105px;
-		margin-left: 0 auto;
-		margin-right: 0 auto;
 		left: 44%;
-		border: 3px solid white;
-		color: white;
-		text-align: center;
-		font-family: "Lobster Two", cursive;
 		font-size: 26px;
 		padding-top: 4px;
 		padding-bottom: 4px;
