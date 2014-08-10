@@ -24,7 +24,7 @@
    -webkit-transition: opacity .15s ease-in-out;
 }
 
-.post:hover .dimmed {
+.post:hover, .post:active .dimmed {
 	opacity: 0.6;
 }
 
@@ -164,7 +164,7 @@ h2.imeprezime {
 	margin-top: 15px;
 }
 
-.post:hover img.pictures {
+.post:hover,.post:active img.pictures {
   /* Webkit for Chrome and Safari */
   -webkit-transform: scale(1.02, 1.02); // This is the enlarged size scale of the image.
   -webkit-transition-duration: 500ms;
