@@ -490,7 +490,11 @@ p {
 		margin-bottom: 20px;
 	}
 
-
+	.latest-icon {
+		top:15px;
+		left:15px;
+		width: 120px;
+	}	
 }
 
 @media (min-width: 1200px) {
